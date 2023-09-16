@@ -1,0 +1,126 @@
+* {
+margin: 0; 
+padding:0;
+list-style: none;
+text-decoration: none}
+
+
+.header{
+    width: 100vw;
+    height: 80px;
+display: flex;
+background-color: black;
+user-select: none
+}
+
+
+.inner-header{
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: yellow; */
+}
+
+
+.logo-container{
+    height: 100%;
+    display: table;
+    margin-right: auto;
+    /* background-color: green */
+}
+
+
+.logo-container a{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400
+}
+
+
+.navigation{
+    display: flex;
+    height: 100%;
+    margin-left: auto;
+    /* background-color: red */
+}
+
+
+.navigation a{
+    height: 100%;
+    display: table;
+    padding: 0px 20px;
+}
+
+
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16ems
+}
+
+
+.navigation a li:hover{
+    color: gray;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+
+
+/* Mobile Phones */
+@media(max-width: 980px){
+    .inner-header{
+        flex-direction: column;
+}
+
+
+
+.logo-container{
+    margin: auto;
+
+}
+
+.navigation{
+    margin: auto
+}
+
+
+.navigation a:last-child{
+    padding-right: 0
+}
+
+.navigation a:          first-child{
+    padding-left: 0
+}
+
+
+}
+
+k
+@                                                                       media(max-width: 625px){
+
+
+.header{            
+        height: 160px
+    }
+
+    .navigation{
+        flex-direction: column;
+        align-items: center
+    }
+
+    .navigation a{
+        padding: 0
+    }
+}
