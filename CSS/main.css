@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none
+}
+
+body{
+    background-color: rgb(221,237,250);
+    font-family: arial, sans-serif
+}
+
+.main{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3)
+}
+
+.h1{
+    color: #333;
+    font-size: 24pt
+}
+
+.h2{
+    color: 3555;
+    font-size: 20pt;
+    margin-top: 15px
+}
+
+p{
+    color: #777;
+    font-size: 13pt;
+    margin-top: 10px
+}

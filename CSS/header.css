@@ -9,7 +9,7 @@ text-decoration: none}
     width: 100vw;
     height: 80px;
 display: flex;
-background-color: black;
+        background-color: black;
 user-select: none
 }
 
@@ -100,15 +100,15 @@ user-select: none
     padding-right: 0
 }
 
-.navigation a:          first-child{
+.navigation a:first-child {
     padding-left: 0
 }
 
 
 }
 
-k
-@                                                                       media(max-width: 625px){
+
+@media(max-width: 680px){
 
 
 .header{            
