@@ -79,6 +79,24 @@ user-select: none
 
 
 /* Mobile Phones */
+
+@media(max-width: 680px){
+
+
+.header{            
+        height: 160px
+    }
+
+    .navigation{
+        flex-direction: column;
+        align-items: center
+    }
+
+    .navigation a{
+        padding: 0
+    }
+}
+
 @media(max-width: 980px){
     .inner-header{
         flex-direction: column;
@@ -105,22 +123,4 @@ user-select: none
 }
 
 
-}
-
-
-@media(max-width: 680px){
-
-
-.header{            
-        height: 160px
-    }
-
-    .navigation{
-        flex-direction: column;
-        align-items: center
-    }
-
-    .navigation a{
-        padding: 0
-    }
 }
